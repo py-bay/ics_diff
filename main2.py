@@ -96,7 +96,7 @@ def get_ics_content(path_to_ics: str) -> str:
         return f.read()
 
 
-def parse_args():
+def _parse_args():
     parser = argparse.ArgumentParser(
         description=(
             "Compare a base ICS calendar file with a changed ICS file.\n"
@@ -133,5 +133,5 @@ def parse_args():
 
 
 if __name__ == '__main__':
-    args = parse_args()
+    args = _parse_args()
     main(args.path_to_base_ics, args.path_to_changed_ics, args.output_dir)
