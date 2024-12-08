@@ -45,6 +45,7 @@ python ics_diff_script.py [options] <path_to_base_ics> <path_to_changed_ics>
 **Positional Arguments:**
 - ```path_to_base_ics```: Path to the original/base ICS file.
 - ```path_to_changed_ics```: Path to the ICS file containing changes.
-- 
+
+ 
 **Options:**
 - ```-o, --output-dir```: Specify the directory for the output ICS file. Defaults to the current directory.
